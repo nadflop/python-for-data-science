@@ -1,0 +1,92 @@
+PROBLEM 1 (Hypothesis Testing)
+1)
+mean engagement of students who become knowledgeable 
+in the material (i.e., the eng1 population) is 0.75
+mu = 0.75
+Null Hypothesis: Students become knowledgeable in the material (mean == 0.75)
+Alternative Hypothesis: Students does not become knowledgeable in the material (mean != 0.75)
+Type of test can be used: z-test
+
+2) Carry out test using eng1 sample
+
+sample size: 937
+sample mean: 0.743030411045
+standard error: 0.00415302728827
+standard cost: -1.6781948375
+p value: 0.0933090692524
+
+result at significance level 0.1: yes
+result at significance level 0.05: no
+what can be concluded: 
+significant at a = 0.1 (reject Ho), 
+not significant at a = 0.05 (cannot reject Ho)
+
+3)
+
+largest std error which the test will be significant at 0.05 = 0.00355597807416
+minimum sample size is 1278.05931911 (1278)
+
+4)
+
+mean engagement of students who become knowledgeable 
+in the material 
+Null Hypothesis: mean engagement of students who become 
+knowledgeable in the material is the same with those who do not
+Alternative Hypothesis: mean engagement of students who become 
+knowledgeable in the material is NOT the same with those who do not
+Type of test can be used: two-sample-z-test
+
+5)
+this is for sample from eng1
+sample size: 1977
+sample mean: 0.639954507704
+standard error: 0.00571598958877
+standard cost: -19.2522205626
+p value: 1.35240102861e-82
+
+this is for sample from eng0
+sample size: 937
+sample mean: 0.743030411045
+standard error: 0.00415302728827
+standard cost: -1.6781948375
+p value: 0.0933090692524
+
+z_score: 14.58878454
+p value for two-z-sample-test: 3.31043071683e-48
+
+significant at a = 0.1,0.01,0.05 (reject Ho)
+can conclude: the two means are different, even the sample size are different?
+
+PROBLEM 2 (Confidence Interval)
+
+1)use t-test because we don't know std_div and n < 30
+
+mean: 7.36363636364 
+std_err: 5.07627767575
+standard statistic: 2.22813885196
+confidence interval for 95% is (3.9533466179911163, 10.773926109281611)
+
+2)same reason as #1
+
+mean: 7.36363636364 
+std_err: 5.07627767575
+standard statistic: 1.81246112281
+Interval: (4.5895643725433333, 10.137708354729394)
+
+3)use z-test because we know std_div
+
+mean: 7.36363636364 
+std_err: 5.07624499731
+standard statistic: 1.95996398454
+confidence interval: (4.3638223960257854, 10.363450331246941)
+
+mean, std_err is similar 
+standard statistic >
+confidence interval >
+
+4)
+
+mean: 7.36363636364 std_err: 5.07627767575
+standard statistic: 1.4505976296
+confidence value: 0.822475212763
+confidence interval: (5.143416462654649, 9.5838562646180776)
